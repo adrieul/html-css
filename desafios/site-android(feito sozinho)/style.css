@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    
+}
+
+body{
+    margin: 0;
+    background-color: #8cf1bd;
+}
+
+header{
+    font-family: 'Roboto Condensed';
+    margin: auto;
+    margin-top: -29px;
+    height: 174px;
+    background: linear-gradient(to top, #28583f, #23EB84);
+    box-shadow: 0px 3px 16px black;
+    
+}
+
+header > h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4px;
+    font-size: 44px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.568);
+
+}
+
+header > p{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 9px;
+    font-weight: 100;
+    color: white;
+
+}
+
+
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding: 9px;
+}
+header > nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+main > img{ 
+    width: 700px;
+}
+main > img#budgroid{
+    width: 200px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+main h1{
+    font-family: 'idroid';
+    font-size: 25px;
+    padding: 0px 8px;
+    
+}
+
+main h2{
+    font-family: 'idroid';
+    padding: 0px 8px;
+    background-color: #9fe2bf63;
+    font-size: 16px;
+    width: 250px;
+    border-top-right-radius: 20px;
+}
+
+main p{
+    padding: 0 8px;
+    text-indent: 30px;
+}
+
+main a{
+    text-decoration: none;
+    color: rgb(0, 95, 0);
+    font-weight: bold;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a::after{
+    content: '🔗';
+}
+
+main iframe{
+    padding: 0 61px;
+    background-color: #28583f;
+    border: 10px solid #28583f;
+}
+
+main div#extra{
+    margin: auto;
+    width: 600px;
+    background-color: #a6eec9;
+    border-radius: 12px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.438);
+    
+}
+
+main div#extra > h3{
+    padding: 8px 9px;
+    background-color: #28583f;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.164);
+    color: white;
+    font-family: 'Roboto Condensed';
+}
+
+footer{
+    background-color: #28583f;
+    height: 30px;
+}
+
+footer p{
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+}

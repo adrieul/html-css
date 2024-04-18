@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+    Tudo que em HTML5 é id em CSS é "#" (somente um elemento)
+    Tudo que em HTML5 é class em CSS é "." (pode vários elementos)
+*/
+
+
+body{
+    background-color: rgba(248, 223, 223, 0.623);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(2, 117, 31);
+}
+
+h1#principal{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(93, 141, 93);
+}
+
+h2{
+    color: rgb(2, 71, 2);
+}
+
+.basico{
+    color: rgb(3, 180, 3);
+}
+
+.int{
+    color: rgb(204, 204, 19);
+}
+
+.avan{
+    color: red;
+}
+

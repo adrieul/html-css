@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste botão</title>
+    <style>
+
+        body{
+            background-color: rgb(177, 177, 177);
+        }
+
+        div#btn{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: auto;
+            box-shadow: 4px 3px 0px rgb(202, 202, 202);
+            
+            
+            border-radius: 50px;
+
+        }
+
+        div#btn:hover{
+
+            transform: translateY(-2px);
+        }
+
+        div#btn:active{
+            transform: translateY(2px);
+            box-shadow: inset 3px 2px 5px 0px rgba(0, 0, 0, 0.466);
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="btn"></div>
+</body>
+</html>
